@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style-type: none;
+}
+
+li.low {
+  border: 2px solid #1a681e;
+  color: #1a681e;
+}
+li.high {
+  border: 2px solid #f2360c;
+  color: red;
+  font-weight: bold;
+}
